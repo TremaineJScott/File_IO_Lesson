@@ -11,12 +11,14 @@ namespace File_IO_Lesson
         public string UpcCode { get; set; }
         public string Title { get; set; }
         public double PurchasePrice { get; set; }
+        public string Description { get; set; }
 
         public ComicBook(string code, string title, double price)
         {
             UpcCode = code;
             Title = title;
             PurchasePrice = price;
+
         }
     }
 
